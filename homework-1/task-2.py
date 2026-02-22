@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import tkinter as tk
 from tkinter import messagebox
 
-# Ayarlar ve Parametreler [cite: 68, 69]
+# Ayarlar ve Parametreler 
 SAMPLING_FREQ = 8000  # Standart Ornekleme Hizi
 DURATION = 0.3  # Tonun Suresi (second)
 
@@ -85,3 +85,4 @@ for r, row in enumerate(key_list):
 
 print("Keypad is running. Press any button to hear the tone and see the graph.")
 root.mainloop()
+
