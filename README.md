@@ -1,27 +1,27 @@
 # COE 216 - Signals and Systems (Spring 2026)
 
-[cite_start]This repository serves as a central hub for all homework assignments and projects for the **COE 216 Signals and Systems** course at **Istanbul Health and Technology University (İSTÜN)** [cite: 89-91, 93, 94].
+This repository serves as a central hub for all homework assignments and projects for the **COE 216 Signals and Systems** course at **Istanbul Health and Technology University (İSTÜN)** [cite: 89-91, 93, 94].
 
 ## 👥 Group Members
-* [cite_start]**220611010** - Sübhan Aslan [cite: 98]
-* [cite_start]**230611055** - Osman Bay [cite: 99]
-* [cite_start]**240611303** - Emircan Akar [cite: 100]
+* **220611010** - Sübhan Aslan 
+* **230611055** - Osman Bay 
+* **240611303** - Emircan Akar 
 
 ---
 
 ## 📂 Repository Structure
 Assignments are organized into dedicated folders to ensure clarity and easy navigation throughout the semester.
 
-### [cite_start][Homework 1: Sinusoidal Signals & DTMF Synthesis](https://github.com/your-username/coe2016-signals_and_systems/tree/main/Homework_1) [cite: 3]
+### [Homework 1: Sinusoidal Signals & DTMF Synthesis](https://github.com/your-username/coe2016-signals_and_systems/tree/main/Homework_1) 
 * **Task 1: Sampling and Visualization**: 
-    * [cite_start]Calculation of baseline frequency $f_{0} = 68 \text{ Hz}$ based on group school numbers[cite: 113].
-    * [cite_start]Visualization of $f_{1}=68 \text{ Hz}$, $f_{2}=34 \text{ Hz}$, and $f_{3}=680 \text{ Hz}$ sinusoidal signals[cite: 115].
-    * [cite_start]Demonstration of the Nyquist-Shannon Sampling Theorem by selecting $f_{s} = 10,000 \text{ Hz}$ [cite: 117-120].
+    * Calculation of baseline frequency $f_{0} = 68 \text{ Hz}$ based on group school numbers.
+    * Visualization of $f_{1}=68 \text{ Hz}$, $f_{2}=34 \text{ Hz}$, and $f_{3}=680 \text{ Hz}$ sinusoidal signals.
+    * Demonstration of the Nyquist-Shannon Sampling Theorem by selecting $f_{s} = 10,000 \text{ Hz}$ .
 * **Task 2: DTMF Interface Design**:
-    * [cite_start]Interactive phone keypad (numpad) design including 0-9, *, #, and A-D keys[cite: 53].
-    * [cite_start]Real-time time-domain signal visualization upon keypress[cite: 55].
-    * [cite_start]Dual-tone audio synthesis using frequency summation: $x(t) = \sin(2\pi f_{low}t) + \sin(2\pi f_{high}t)$[cite: 48, 54, 190].
-    * [cite_start]Signal normalization by a factor of 0.5 to prevent digital clipping[cite: 75, 193].
+    * Interactive phone keypad (numpad) design including 0-9, *, #, and A-D keys.
+    * Real-time time-domain signal visualization upon keypress.
+    * Dual-tone audio synthesis using frequency summation: $x(t) = \sin(2\pi f_{low}t) + \sin(2\pi f_{high}t)$.
+    * Signal normalization by a factor of 0.5 to prevent digital clipping.
 
 ---
 
