@@ -42,11 +42,10 @@ Navigate to the specific homework folder and execute the tasks:
 python task-1.py
 python task-2.py
 
-Course Information
-
+📜 Course Information
 Lecturer: Prof. Halis Altun 
 Department: Computer Engineering 
 Semester: 2025-2026 Spring
 
-Academic Integrity
+⚖️ Academic Integrity
 All materials in this repository are submitted for academic purposes. The implementations and reports are the original works of the listed group members, complying with the university's academic policies.
