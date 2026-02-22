@@ -1,6 +1,6 @@
 # COE 216 - Signals and Systems (Spring 2026)
 
-This repository serves as a central hub for all homework assignments and projects for the **COE 216 Signals and Systems** course at **Istanbul Health and Technology University (İSTÜN)** [cite: 89-91, 93, 94].
+This repository serves as a central hub for all homework assignments and projects for the **COE 216 Signals and Systems** course at **Istanbul Health and Technology University (İSTUN)**.
 
 ## 👥 Group Members
 * **220611010** - Sübhan Aslan 
