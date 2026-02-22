@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import tkinter as tk
 from tkinter import messagebox
 
-# 1. Configuration and Parameters [cite: 68, 69]
-SAMPLING_FREQ = 8000  # Standard sampling rate
-DURATION = 0.3  # Duration of the tone in seconds
+# Ayarlar ve Parametreler [cite: 68, 69]
+SAMPLING_FREQ = 8000  # Standart Ornekleme Hizi
+DURATION = 0.3  # Tonun Suresi (second)
 
-# 2. DTMF Frequency Mapping
+# DTMF Frekans Haritalama
 DTMF_KEYS = {
     '1': (697, 1209),
     '2': (697, 1336),
@@ -33,20 +33,20 @@ def generate_and_play(key):
     try:
         f_low, f_high = DTMF_KEYS[key]
 
-        # Time axis
+        # Zaman Ekseni
         t = np.linspace(0, DURATION, int(SAMPLING_FREQ * DURATION), endpoint=False)
 
-        # Signal Generation (Sum of two sinusoids) [cite: 48, 54, 73]
-        # Normalization (multiply by 0.5) to avoid clipping
+        # Sinyal Donusumu (iki sinusoid toplami)
+        # Normallestime (0.5 kati) kirpilmayi onlemek icin
         signal = 0.5 * (np.sin(2 * np.pi * f_low * t) + np.sin(2 * np.pi * f_high * t))
 
-        # Audio Output [cite: 56, 76]
+        # Ses Ciktisi
         sd.play(signal, SAMPLING_FREQ)
 
-        # Visualization (Time Domain) [cite: 55]
+        # Gorsellestirme (Zaman Alani)
         plt.figure("DTMF Visualization", figsize=(8, 4))
-        plt.clf()  # Clear previous plot
-        # Showing only a small portion (e.g., first 200 samples) for visual clarity
+        plt.clf()  # Onceki Taslagi Temizle
+        # Gorsel Netlik Icin Kucuk Bir Parca Goster (ilk 200 ornek gibi)
         plt.plot(t[:200], signal[:200])
         plt.title(f"Time Domain Signal for Key: {key} ({f_low}Hz + {f_high}Hz)")
         plt.xlabel("Time (s)")
@@ -59,11 +59,11 @@ def generate_and_play(key):
         messagebox.showerror("Error", str(e))
 
 
-# 3. GUI Design (Interactive Keypad) [cite: 52, 53]
+# GUI
 root = tk.Tk()
 root.title("DTMF Keypad")
 
-# Layout configuration
+# Sablon
 key_list = [
     ['1', '2', '3', 'A'],
     ['4', '5', '6', 'B'],
