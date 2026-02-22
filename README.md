@@ -12,7 +12,7 @@ This repository serves as a central hub for all homework assignments and project
 ## 📂 Repository Structure
 Assignments are organized into dedicated folders to ensure clarity and easy navigation throughout the semester.
 
-### [Homework 1: Sinusoidal Signals & DTMF Synthesis](https://github.com/your-username/coe2016-signals_and_systems/tree/main/homework-1) 
+### [Homework 1: Sinusoidal Signals & DTMF Synthesis](https://github.com/your-username/coe2016-signals_and_systems/tree/main/homework-1](https://github.com/emircanakar/coe2016-signals_and_systems/tree/main/homework-1) 
 * **Task 1: Sampling and Visualization**: 
     * Calculation of baseline frequency $f_{0} = 68 \text{ Hz}$ based on group school numbers.
     * Visualization of $f_{1}=68 \text{ Hz}$, $f_{2}=34 \text{ Hz}$, and $f_{3}=680 \text{ Hz}$ sinusoidal signals.
