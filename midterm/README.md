@@ -6,14 +6,15 @@ This project implements a complete speech analysis pipeline to classify gender a
 To ensure the scripts function correctly, the following directory structure must be maintained:
 Plaintext
 
+```text
 ├── Dataset/                                        # Directory containing raw .wav files
-├── create_master_metadata_table.py                 # Script for merging fragmented metadata 
-├── create_feature_extracted_data.py                # Output containing F0, STE, and ZCR values 
-├── fft_vs_autocorrelation_graph.py                 # Script for visual signal comparison 
-├── matrix.py                                       # Script for generating the confusion matrix 
-├── statistic_and_create_final_performance_table.py # Script for statistical analysis 
-└── app.py                                          # Streamlit-based user interface 
-                 
+├── create_master_metadata_table.py                 # Script for merging fragmented metadata
+├── create_feature_extracted_data.py                # Output containing F0, STE, and ZCR values
+├── fft_vs_autocorrelation_graph.py                 # Script for visual signal comparison
+├── matrix.py                                       # Script for generating the confusion matrix
+├── statistic_and_create_final_performance_table.py # Script for statistical analysis
+└── app.py                                          # Streamlit-based user interface
+``` (Buraya da 3 tane ters tırnak)
 
 🛠️ Requirements
 
