@@ -6,13 +6,13 @@ This project implements a complete speech analysis pipeline to classify gender a
 To ensure the scripts function correctly, the following directory structure must be maintained:
 Plaintext
 
-├── Dataset/                   
-├── create_master_metadata_table.py       
-├── create_feature_extracted_data.py 
-├── fft_vs_autocorrelation_graph.py          
-├── matrix.py     
-├── statistic_and_create_final_performance_table.py      
-└── app.py                     
+├── Dataset/
+├── create_master_metadata_table.py
+├── create_feature_extracted_data.py
+├── fft_vs_autocorrelation_graph.py
+├── matrix.py
+├── statistic_and_create_final_performance_table.py
+└── app.py                    
 
 🛠️ Requirements
 
