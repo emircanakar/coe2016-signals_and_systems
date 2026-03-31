@@ -14,7 +14,7 @@ Plaintext
 ├── matrix.py                                       # Script for generating the confusion matrix
 ├── statistic_and_create_final_performance_table.py # Script for statistical analysis
 └── app.py                                          # Streamlit-based user interface
-``` (Buraya da 3 tane ters tırnak)
+``` 
 
 🛠️ Requirements
 
