@@ -1,6 +1,7 @@
 Sound Signal Analysis and Gender Classification
 
-This project implements a complete speech analysis pipeline to classify gender and age groups (Male, Female, and Child) from raw audio signals . The system utilizes Fundamental Frequency (F0​) estimation through time-domain analysis techniques .
+This project implements a complete speech analysis pipeline to classify gender and age groups (Male, Female, and Child) from raw audio signals . The system utilizes Fundamental Frequency (F0​) estimation through time-domain analysis techniques.
+
 📂 Directory Structure
 
 To ensure the scripts function correctly, the following directory structure must be maintained:
